@@ -271,7 +271,6 @@ public class WekaMain implements Serializable {
             cM[1][0] += res[1][0];
             cM[1][1] += res[1][1];
 
-
         }
         double[][] cMatrix = new double[2][2];
         cMatrix[0][0] = cM[0][0];
@@ -354,7 +353,6 @@ public class WekaMain implements Serializable {
             cM[0][1] += res[0][1];
             cM[1][0] += res[1][0];
             cM[1][1] += res[1][1];
-
 
         }
         return new Result(cM, veto, maxFU, 0);
@@ -465,8 +463,6 @@ public class WekaMain implements Serializable {
 
         makeTrueClasses();
 
-
-
         sets.add(new Data(readCSVData(targetLocation + "\\base1_weka.csv"), 1, 0, 1));
         sets.add(new Data(readCSVData(targetLocation + "\\base3_weka.csv"), 2, 0, 2));
         sets.add(new Data(readCSVData(targetLocation + "\\base6_weka.csv"), 3, 0, 3));
@@ -482,18 +478,6 @@ public class WekaMain implements Serializable {
         sets.add(new Data(readCSVData(targetLocation + "\\six12_weka.csv"), 4, 3, 4));
         sets.add(new Data(readCSVData(targetLocation + "\\six18_weka.csv"), 5, 3, 5));
         sets.add(new Data(readCSVData(targetLocation + "\\twelve18_weka.csv"), 5, 4, 5));
-
-        if (baseFilter == FilterType.univariate || baseFilter == FilterType.multivariate || baseFilter == FilterType.indiWrapper) {
-            for (int i = 0; i < sets.size(); i++) {
-                sets.get(i).filtered = filter(sets.get(i).data);
-                sets.get(i).original = sets.get(i).data;
-            }
-        } else if (baseFilter == FilterType.averageWrap) {
-            setAttributes(behemothWrapper());
-
-        } else if (baseFilter == FilterType.ensembleWrap) {
-        }
-
     }
 
     public void setClassifierAtt(boolean prune, int numAttributes, int minLeavesRandom, int numTree, int numForestAtt, int numNeighbours, double ridgeFactor) {
@@ -507,6 +491,18 @@ public class WekaMain implements Serializable {
     }
 
     public void buildClassifier() throws Exception {
+        if (baseFilter == FilterType.univariate || baseFilter == FilterType.multivariate || baseFilter == FilterType.indiWrapper) {
+            for (int i = 0; i < sets.size(); i++) {
+                sets.get(i).filtered = filter(sets.get(i).data);
+                sets.get(i).original = sets.get(i).data;
+            }
+        } else if (baseFilter == FilterType.averageWrap) {
+            //attributes are derived by  behemothWrapper which needs to be run before building the classifier to save time
+
+        } else if (baseFilter == FilterType.ensembleWrap) {
+            //attributes are derived by  ensembleWrapper which needs to be run before building the classifier to save time
+        }
+        
         if (classifier.equals("J48")) {
             buildJ48Classifiers(sets);
         } else if (classifier.equals("randomTree")) {
@@ -610,8 +606,6 @@ public class WekaMain implements Serializable {
             }
         }
 
-
-
         if (classifier.equals(
                 "J48")) {
             buildJ48Classifiers(sets);
@@ -660,7 +654,6 @@ public class WekaMain implements Serializable {
         otherFollow = readLargerTextFile(followUpPathTest);
         removeSpaces();
         makeTrueClasses();
-
 
         testSets.add(new Data(readCSVData(targetLocationTest + "\\base1_weka.csv"), 1, 0, 1));
         testSets.add(new Data(readCSVData(targetLocationTest + "\\base3_weka.csv"), 2, 0, 2));
@@ -755,7 +748,6 @@ public class WekaMain implements Serializable {
             deathList[i - 1][0] = otherFollow.get(i - 1).get(0);
         }
 
-
     }
     public boolean ensemble = false;
 
@@ -806,22 +798,19 @@ public class WekaMain implements Serializable {
                 }
                 int index = -1;
 
-                index = testSets.get(j).data.attribute(0).indexOfValue(ID);
-
+                for (int k = 0; k < testSets.get(j).data.numInstances(); k++) {
+                    if (testSets.get(j).data.instance(k).stringValue(0).equals(ID)) {
+                        index = k;
+                        break;
+                    }
+                }
                 if (index == -1) {
                     //this ID is no longer present in this set so this set so stop classifying
                     continue;
-                } else if (index >= testSets.get(j).data.numInstances()) {
-                    for (int o = 0; o < testSets.get(j).data.numInstances(); o++) {
-                        if (testSets.get(j).data.instance(o).stringValue(0).equals(ID)) {
-                            index = o;
-                            break;
-                        }
-                    }
                 }
+
                 Instance in = testSets.get(j).data.instance(index);
                 classes.add(sets.get(j).classifier.distributionForInstance(in)[1]);
-
             }
             classification[i][0] = ID;
             classification[i][1] = voting(classes, veto);
@@ -1113,7 +1102,6 @@ public class WekaMain implements Serializable {
         }
         return new Comparison(mean, sDev, tValue, true, diff.size());
 
-
     }
 
     /**
@@ -1130,7 +1118,7 @@ public class WekaMain implements Serializable {
         in.deleteAttributeAt(0);
 
         AttributeSelection attFilter = new AttributeSelection();  // package weka.filters.supervised.attribute!
-
+        System.out.println(baseFilter);
         if (baseFilter == FilterType.univariate) {
             //rank attributes
             GainRatioAttributeEval eval = new GainRatioAttributeEval();
@@ -1174,9 +1162,7 @@ public class WekaMain implements Serializable {
             //classifier is set correctly below this.
             //this also sets the # of folds for K-fold (10) and some threshold
             String[] WrapperEvalOpts_nbc = {"-B", "weka.classifiers.bayes.NaiveBayes", "-F", "2", "-T", "0.01", "-E", "auc", "-R", "6"};// "" + WrapperSubsetEval.EVAL_AUC};
-            System.out.println(eval.getEvaluationMeasure() + "hallo");
             eval.setOptions(WrapperEvalOpts_nbc);
-            System.out.println(eval.getEvaluationMeasure() + "hallo");
             //get the correct classifier.
             if (classifier.equals("J48")) {
                 eval.setClassifier(new J48());
@@ -1273,8 +1259,6 @@ public class WekaMain implements Serializable {
         } else {
             return in2;
         }
-
-
 
     }
 
@@ -1422,7 +1406,6 @@ public class WekaMain implements Serializable {
             }
         }
 
-
         if (classifier.equals("J48")) {
             buildJ48Classifiers(sets);
         } else if (classifier.equals("randomTree")) {
@@ -1456,39 +1439,44 @@ public class WekaMain implements Serializable {
         ArrayList<Double> ridge = new ArrayList<Double>();
         ridgeFactor = 100;
 
+        for (int i = 0; i < sets.size(); i++) {
+            for (int j = 51; j < sets.get(i).data.numInstances(); j++) {
+                sets.get(i).data.delete(i);
+            }
+        }
 
-        filterRecombination = filterRecombination.union;
-//       baseFilter = FilterType.univariate;
-//        buildClassifier();
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = i + 1; j < 6; j++) {
-//                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-//                printResult(i, j, relevantSets(i,j), "univariate_ridge_100");
-//
-//            }
-//        }
-//        baseFilter = FilterType.multivariate;
-//       
-//        buildClassifier();
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = i + 1; j < 6; j++) {
-//                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-//                printResult(i, j, relevantSets(i,j), "multivariate_ridge_100");
-//
-//            }
-//        }
-//        baseFilter = FilterType.indiWrapper;
-//        buildClassifier();
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = i + 1; j < 6; j++) {
-//                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-//                printResult(i, j, relevantSets(i,j), "indiwrapper_ridge_100");
-//
-//            }
-//        }
+        filterRecombination = filterRecombination.filter;
+        baseFilter = FilterType.univariate;
+        buildClassifier();
+        for (int i = 0; i < 5; i++) {
+            for (int j = i + 1; j < 6; j++) {
+                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
+                printResult(i, j, relevantSets(i,j), "univariate_ridge_100");
+
+            }
+        }
+        baseFilter = FilterType.multivariate;
+
+        buildClassifier();
+        for (int i = 0; i < 5; i++) {
+            for (int j = i + 1; j < 6; j++) {
+                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
+                printResult(i, j, relevantSets(i, j), "multivariate_ridge_100");
+
+            }
+        }
+        baseFilter = FilterType.indiWrapper;
+        buildClassifier();
+        for (int i = 0; i < 5; i++) {
+            for (int j = i + 1; j < 6; j++) {
+                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
+                printResult(i, j, relevantSets(i,j), "indiwrapper_ridge_100");
+
+            }
+        }
 //        baseFilter = FilterType.ensembleWrap;
 //        buildClassifier();
-//
+
 //        for (int i = 3; i < 4; i++) {
 //
 //            for (int j = 5; j < 6; j++) {
@@ -1499,28 +1487,27 @@ public class WekaMain implements Serializable {
 //            }
 //
 //        }
-        baseFilter = FilterType.averageWrap;
-        buildClassifier();
-        //       setAttributes(behemothWrapper());
-        ArrayList<Boolean> b = makelist();
-        boolean[] a = new boolean[b.size()];
-        for(int i = 0; i < b.size(); i++){
-            a[i] = b.get(i);
-        }
-        setAttributes(a);
-        for (int i = 0; i < 5; i++) {
-            for (int j = i + 1; j < 6; j++) {
-                if (i == 0){
-                    j = 5;
-                }
-                printResult(i, j, relevantSets(i, j), "Behemoth_ridge_100");
-
-            }
-        }
-
-
-
-
+//        baseFilter = FilterType.averageWrap;
+//        buildClassifier();
+//        //       setAttributes(behemothWrapper());
+//        ArrayList<Boolean> b = makelist();
+//        boolean[] a = new boolean[b.size()];
+//        for(int i = 0; i < b.size(); i++){
+//            a[i] = b.get(i);
+//        }
+//        setAttributes(a);
+//        for (int i = 0; i < 5; i++) {
+//            for (int j = i + 1; j < 6; j++) {
+//                if (i == 0){
+//                    j = 5;
+//                }
+//                printResult(i, j, relevantSets(i, j), "Behemoth_ridge_100");
+//
+//            }
+//        }
+//
+//
+//
         System.out.println("done");
     }
 
@@ -1836,14 +1823,18 @@ public class WekaMain implements Serializable {
 
             int count = 0;
             s = "";
-            for (int i = 0; i < sets.get(0).data.numAttributes(); i++) {
-                s += sets.get(0).data.attribute(i).name() + ";";
-                count++;
-                if (count == 1) {
-                    writer.write(s);
-                    writer.newLine();
-                    s = "";
-                    count = 0;
+            for (int j = 0; j < sets.size(); j++) {
+                writer.write("classifier " + sets.get(j).start + "-"+ sets.get(j).end);
+                writer.newLine();
+                for (int i = 0; i < sets.get(j).data.numAttributes(); i++) {
+                    s += sets.get(j).data.attribute(i).name() + ";";
+                    count++;
+                    if (count == 1) {
+                        writer.write(s);
+                        writer.newLine();
+                        s = "";
+                        count = 0;
+                    }
                 }
             }
             writer.write(s);
@@ -1857,40 +1848,55 @@ public class WekaMain implements Serializable {
                 list.add(TTest(sets.get(i)));
             }
             count = 0;
-            writer.write("P values for each attribute except for the ID attribute");
-            writer.newLine();
-            for (int i = 0; i < sets.get(0).data.numAttributes()-1; i++) {
-                //do take into account that the set still has the ID attribute, but Pvalues dont
-                double min = 10;
-                double max = -10;
-                if (i != 0) {
-                    for (int j = 0; j < list.size(); j++) {
-                        if (j == 0) {
-                            min = list.get(j)[i - 1][1];
-                            max = min = list.get(j)[i - 1][1];
-                        }
-                        if (list.get(j)[i - 1][1] < min) {
-                            min = list.get(j)[i - 1][1];
-                        } else if (list.get(j)[i - 1][1] > max) {
-                            max = list.get(j)[i - 1][1];
-                        }
-                    }
-
-                    s += sets.get(0).data.attribute(i).name() + " Min: Pvalue: " + min + " Max value: " + max + " ; ";
-                }
-                count++;
-                if (count == 1) {
-                    writer.write(s);
-                    writer.newLine();
-                    s = "";
-                    count = 0;
-                }
-            }
-            writer.write(s);
-            writer.newLine();
-            s = "";
-            count = 0;
-
+//            writer.write("P values for each attribute except for the ID attribute");
+//            writer.newLine();
+//            ArrayList<Double> pvalueMax = new ArrayList<Double>();
+//            ArrayList<Double> pvalueMin = new ArrayList<Double>();
+//            ArrayList<String> name = new ArrayList<String>();
+//            for(int j = 0; j < list.size(); j++){
+//                for(int i = 1; i < sets.get(j).data.numAttributes()-1; i++){
+//                    String attName = sets.get(j).data.attribute(i).name();
+//                    if(name.contains(attName)){
+//                        pvalueMax.set(name.indexOf(attName), Math.max(pvalueMax.get(name.indexOf((attName))), list.get(j)[i-1][1]));
+//                        pvalueMin.set(name.indexOf(attName), Math.min(pvalueMin.get(name.indexOf((attName))), list.get(j)[i-1][1]));
+//                    }else{
+//                        name.add(attName);
+//                        pvalueMax.add(list.get(j)[i-1][1]);
+//                        pvalueMin.add(list.get(j)[i-1][1]);
+//                    }
+//                }
+//            }
+//            for (int i = 0; i < sets.get(0).data.numAttributes()-1; i++) {
+//                //do take into account that the set still has the ID attribute, but Pvalues dont
+//                double min = 10;
+//                double max = -10;
+//                if (i != 0) {
+//                    for (int j = 0; j < list.size(); j++) {
+//                        if (j == 0) {
+//                            min = list.get(j)[i - 1][1];
+//                            max = min = list.get(j)[i - 1][1];
+//                        }
+//                        if (list.get(j)[i - 1][1] < min) {
+//                            min = list.get(j)[i - 1][1];
+//                        } else if (list.get(j)[i - 1][1] > max) {
+//                            max = list.get(j)[i - 1][1];
+//                        }
+//                    }
+//
+//                    s += sets.get(0).data.attribute(i).name() + " Min: Pvalue: " + min + " Max value: " + max + " ; ";
+//                }
+//                count++;
+//                if (count == 1) {
+//                    writer.write(s);
+//                    writer.newLine();
+//                    s = "";
+//                    count = 0;
+//                }
+//            }
+//            writer.write(s);
+//            writer.newLine();
+//            s = "";
+//            count = 0;
 
         }
     }
@@ -1939,8 +1945,6 @@ public class WekaMain implements Serializable {
         attFilter.setEvaluator(eval);
         attFilter.setSearch(search);
 
-
-
         attFilter.setXval(true);
         attFilter.SelectAttributes(in);
         System.out.println((System.currentTimeMillis() - time) / 1000);
@@ -1972,7 +1976,6 @@ public class WekaMain implements Serializable {
 
         AttributeSelection attFilter = new AttributeSelection();  // package weka.filters.supervised.attribute!
         BehemothWrapper eval = new BehemothWrapper();
-
 
         //get the correct classifier.
         eval.setClassifier(new BehemothClassifier(this));

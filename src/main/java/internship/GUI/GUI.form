@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.8" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
     <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField1">
       <Properties>
@@ -43,6 +43,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -165,14 +166,13 @@
                       <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jTextField4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="305" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
                               <Component id="jTabbedPane1" min="-2" pref="287" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -229,7 +229,7 @@
   <SubComponents>
     <Component class="javax.swing.JTextField" name="jTextField1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="C:\u005cFlorian\u005cUniversiteit\u005cInternship\u005cTIME-CHF\u005cCVS files\u005cTIME-CHF_baseline.csv" containsInvalidXMLChars="true"/>
+        <Property name="text" type="java.lang.String" value="D:\u005cTemp\u005cTIME-CHF_baseline.csv" containsInvalidXMLChars="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
@@ -237,7 +237,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="C:\u005cFlorian\u005cUniversiteit\u005cInternship\u005cTIME-CHF\u005cCVS files\u005cTIME_CHF_follow_up.csv" containsInvalidXMLChars="true"/>
+        <Property name="text" type="java.lang.String" value="D:\u005cTemp\u005cTIME_CHF_follow_up.csv" containsInvalidXMLChars="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
@@ -260,7 +260,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="C:\u005cFlorian\u005cUniversiteit\u005cInternship\u005cTIME-CHF\u005cCVS files\u005cTIME-CHF_Biomarkers.csv" containsInvalidXMLChars="true"/>
+        <Property name="text" type="java.lang.String" value="D:\u005cTemp\u005cTIME-CHF_Biomarkers.csv" containsInvalidXMLChars="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
@@ -281,7 +281,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="C:\u005cTemp\u005c" containsInvalidXMLChars="true"/>
+        <Property name="text" type="java.lang.String" value="D:\u005cTemp\u005cResults" containsInvalidXMLChars="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField4ActionPerformed"/>
@@ -310,7 +310,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane1" alignment="1" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="1" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -353,7 +353,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane2" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -393,7 +393,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane3" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane3" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -433,7 +433,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane4" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane4" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -473,7 +473,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane5" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane5" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -513,7 +513,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane6" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane6" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -553,7 +553,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane7" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane7" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -593,7 +593,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane8" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane8" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -633,7 +633,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane9" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane9" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -673,7 +673,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane10" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane10" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -713,7 +713,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane11" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane11" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -753,7 +753,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane12" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane12" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -793,7 +793,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane13" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane13" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -833,7 +833,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane14" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane14" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -873,7 +873,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane15" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane15" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -913,7 +913,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane16" alignment="0" pref="591" max="32767" attributes="0"/>
+                  <Component id="jScrollPane16" alignment="0" pref="584" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -971,7 +971,7 @@
                               <Component id="compareButton" min="-2" pref="113" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="localCombo" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="203" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="228" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -998,7 +998,7 @@
                           <Component id="localCombo" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane18" pref="674" max="32767" attributes="0"/>
+                      <Component id="jScrollPane18" pref="684" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -1100,7 +1100,7 @@
                               <Component id="compareInButton2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="compareInStart" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="228" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="265" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -1117,7 +1117,7 @@
                           <Component id="compareInStart" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jScrollPane19" pref="688" max="32767" attributes="0"/>
+                      <Component id="jScrollPane19" pref="696" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -1922,7 +1922,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="hospitalizationField">
       <Properties>
-        <Property name="text" type="java.lang.String" value="C:\u005cFlorian\u005cUniversiteit\u005cInternship\u005cTIME-CHF\u005cCVS files\u005cHF_hospitalization.csv" containsInvalidXMLChars="true"/>
+        <Property name="text" type="java.lang.String" value="D:\u005cTemp\u005cHF_hospitalization.csv" containsInvalidXMLChars="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hospitalizationFieldActionPerformed"/>

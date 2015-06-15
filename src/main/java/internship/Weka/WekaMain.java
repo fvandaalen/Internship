@@ -1437,13 +1437,8 @@ public class WekaMain implements Serializable {
         buildClassifier();
         System.out.println(hospitalization);
         ArrayList<Double> ridge = new ArrayList<Double>();
-        ridgeFactor = 100;
+        ridgeFactor = 0.01;
 
-        for (int i = 0; i < sets.size(); i++) {
-            for (int j = 51; j < sets.get(i).data.numInstances(); j++) {
-                sets.get(i).data.delete(i);
-            }
-        }
 
         filterRecombination = filterRecombination.filter;
         baseFilter = FilterType.univariate;
@@ -1451,7 +1446,7 @@ public class WekaMain implements Serializable {
         for (int i = 0; i < 5; i++) {
             for (int j = i + 1; j < 6; j++) {
                 System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-                printResult(i, j, relevantSets(i,j), "univariate_ridge_100");
+                printResult(i, j, relevantSets(i,j), "univariate_ridge_0_01");
 
             }
         }
@@ -1461,7 +1456,7 @@ public class WekaMain implements Serializable {
         for (int i = 0; i < 5; i++) {
             for (int j = i + 1; j < 6; j++) {
                 System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-                printResult(i, j, relevantSets(i, j), "multivariate_ridge_100");
+                printResult(i, j, relevantSets(i, j), "multivariate_ridge_0_01");
 
             }
         }
@@ -1470,7 +1465,7 @@ public class WekaMain implements Serializable {
         for (int i = 0; i < 5; i++) {
             for (int j = i + 1; j < 6; j++) {
                 System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-                printResult(i, j, relevantSets(i,j), "indiwrapper_ridge_100");
+                printResult(i, j, relevantSets(i,j), "indiwrapper_ridge_0_01");
 
             }
         }

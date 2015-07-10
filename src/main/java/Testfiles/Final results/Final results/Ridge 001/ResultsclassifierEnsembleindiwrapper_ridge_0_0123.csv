@@ -1,0 +1,17 @@
+Achieved AUC: 0.836695454831999
+
+
+
+Selected Features for ensemble: 3-6
+classifier 2-3
+ï»¿PatientID;
+CysC;
+Cancer01_baseLine_other_data;
+Metastasis_baseLine_other_data;
+CharlsonScore_baseLine_other_data;
+Anï¿½mie_baseLine_other_data;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+
+
+

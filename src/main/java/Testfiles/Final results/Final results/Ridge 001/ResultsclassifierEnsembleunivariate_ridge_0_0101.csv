@@ -1,0 +1,31 @@
+Achieved AUC: 0.7096210448859456
+
+
+
+Selected Features for ensemble: 0-1
+classifier 0-1
+ï»¿PatientID;
+DOB_baseLine_other_data;
+Main_CAD_baseLine_other_data;
+CAD_baseLine_other_data;
+Hypertension_baseLine_other_data;
+COPD01_baseLine_other_data;
+PAOD_baseLine_other_data;
+AA_baseLine_other_data;
+AAthorax_baseLine_other_data;
+AAthoraxdim_baseLine_other_data;
+Depression_baseLine_other_data;
+Kidney_disease_baseLine_other_data;
+Comorb_baseLine_other_data;
+comorb02_baseLine_other_data;
+Anï¿½mie_baseLine_other_data;
+Atherosklerose_baseLine_other_data;
+Angina_baseLine_other_data;
+EdemaHistory_01_baseLine_other_data;
+Rales_01_baseLine_other_data;
+EDTAbloodtaken_baseLine_other_data;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+
+
+

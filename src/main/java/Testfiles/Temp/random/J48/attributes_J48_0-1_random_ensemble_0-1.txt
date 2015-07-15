@@ -1,0 +1,21 @@
+There are a total of 20 attributes with the following filterrandom
+﻿PatientID
+Preserved_LVEF_baseLine_other_data
+AFib_baseLine_other_data
+PAOD_baseLine_other_data
+Cancer_baseLine_other_data
+Gallenblase_baseLine_other_data
+An�mie_baseLine_other_data
+Aethylabusus_baseLine_other_data
+Epilepsie_baseLine_other_data
+RestriktivePneumopathien_baseLine_other_data
+Atherosklerose_baseLine_other_data
+Edema_01_baseLine_other_data
+Sodium_baseLine_other_data
+ALT_baseLine_other_data
+Rhythm_baseLine_other_data
+PM_Rhythm_ECG_baseLine_other_data
+QRS_baseLine_other_data
+Socialstatus_baseLine_other_data
+filter_$_baseLine_other_data
+Death

@@ -1,0 +1,106 @@
+\begin{table*}
+\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2.5cm}|p{2cm}|p{2cm}|}
+\hlineSettings:  & #NN 5 & #Trees 10 & #Att 30 & Ridge 0.01 & #min inst/leave 10 \\ \hline 
+  &  &  &  &  &  \\ \hline 
+ &  &  &  &  &  \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: base-1 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from base-1 & 0.544472038 & 0.680371597 & 0.688787712 & 0.748896247 & 0.778467623 \\ \hline 
+Ensemble Classifier from base-1 & 0.544472038 & 0.680371597 & 0.688787712 & 0.748896247 & 0.778467623 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: base-3 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from base-3 & 0.561073909 & 0.561073909 & 0.728887649 & 0.776320685 & 0.756603423 \\ \hline 
+Classifier from 1-3 & 0.547247024 & 0.659939236 & 0.732111855 & 0.800223214 & 0.796533978 \\ \hline 
+Ensemble Classifier from base-3 & 0.559895833 & 0.710069444 & 0.770895337 & 0.80062624 & 0.79327877 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: base-6 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from base-6 & 0.801456219 & 0.623494925 & 0.787303789 & 0.762970434 & 0.781693248 \\ \hline 
+Classifier from 1-6 & 0.797579273 & 0.619523419 & 0.757612053 & 0.745729055 & 0.75862069 \\ \hline 
+Classifier from 3-6 & 0.788501544 & 0.547342873 & 0.731135346 & 0.729370233 & 0.767635378 \\ \hline 
+Ensemble Classifier from base-6 & 0.797516233 & 0.680293765 & 0.835686818 & 0.805081006 & 0.825253735 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: base-12 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from base-12 & 0.660049466 & 0.64913651 & 0.630695131 & 0.749479302 & 0.763624924 \\ \hline 
+Classifier from 1-12 & 0.647335763 & 0.670137985 & 0.754404235 & 0.789941855 & 0.8207715 \\ \hline 
+Classifier from 3-12 & 0.643322052 & 0.67235095 & 0.772693743 & 0.83381064 & 0.846242298 \\ \hline 
+Classifier from 6-12 & 0.593031329 & 0.650177905 & 0.746290029 & 0.799487981 & 0.822073245 \\ \hline 
+Ensemble Classifier from base-12 & 0.700837456 & 0.817560531 & 0.810769765 & 0.842727588 & 0.855267725 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: base-18 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from base-18 & 0.579386243 & 0.618708995 & 0.654910053 & 0.638222222 & 0.658825397 \\ \hline 
+Classifier from 1-18 & 0.571968254 & 0.573693122 & 0.677174603 & 0.675132275 & 0.689873016 \\ \hline 
+Classifier from 3-18 & 0.609767196 & 0.594952381 & 0.660169312 & 0.681968254 & 0.695566138 \\ \hline 
+Classifier from 6-18 & 0.572687831 & 0.620539683 & 0.672899471 & 0.701925926 & 0.703068783 \\ \hline 
+Classifier from 12-18 & 0.63631746 & 0.622613757 & 0.670486772 & 0.705968254 & 0.705396825 \\ \hline 
+Ensemble Classifier from base-18 & 0.611417989 & 0.668571429 & 0.715068783 & 0.709968254 & 0.708486772 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 1-3 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 1-3 & 0.547247024 & 0.659939236 & 0.732111855 & 0.800223214 & 0.796533978 \\ \hline 
+Ensemble Classifier from 1-3 & 0.547247024 & 0.659939236 & 0.732111855 & 0.800223214 & 0.796533978 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 1-6 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 1-6 & 0.797579273 & 0.619523419 & 0.757612053 & 0.745729055 & 0.75862069 \\ \hline 
+Classifier from 3-6 & 0.788501544 & 0.547342873 & 0.731135346 & 0.729370233 & 0.767635378 \\ \hline 
+Ensemble Classifier from 1-6 & 0.795940238 & 0.655739772 & 0.803599571 & 0.777784782 & 0.773687197 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 1-12 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 1-12 & 0.647335763 & 0.670137985 & 0.754404235 & 0.789941855 & 0.8207715 \\ \hline 
+Classifier from 3-12 & 0.643322052 & 0.67235095 & 0.772693743 & 0.83381064 & 0.846242298 \\ \hline 
+Classifier from 6-12 & 0.593031329 & 0.650177905 & 0.746290029 & 0.799487981 & 0.822073245 \\ \hline 
+Ensemble Classifier from 1-12 & 0.690466892 & 0.794649831 & 0.816280483 & 0.846546038 & 0.861060488 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 1-18 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 1-18 & 0.571968254 & 0.573693122 & 0.677174603 & 0.675132275 & 0.689873016 \\ \hline 
+Classifier from 3-18 & 0.609767196 & 0.594952381 & 0.660169312 & 0.681968254 & 0.695566138 \\ \hline 
+Classifier from 6-18 & 0.572687831 & 0.620539683 & 0.672899471 & 0.701925926 & 0.703068783 \\ \hline 
+Classifier from 12-18 & 0.63631746 & 0.622613757 & 0.670486772 & 0.705968254 & 0.705396825 \\ \hline 
+Ensemble Classifier from 1-18 & 0.614306878 & 0.648571429 & 0.717428571 & 0.71778836 & 0.72015873 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 3-6 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 3-6 & 0.788501544 & 0.547342873 & 0.731135346 & 0.729370233 & 0.767635378 \\ \hline 
+Ensemble Classifier from 3-6 & 0.788501544 & 0.547342873 & 0.731135346 & 0.729370233 & 0.767635378 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 3-12 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 3-12 & 0.643322052 & 0.67235095 & 0.772693743 & 0.83381064 & 0.846242298 \\ \hline 
+Classifier from 6-12 & 0.593031329 & 0.650177905 & 0.746290029 & 0.799487981 & 0.822073245 \\ \hline 
+Ensemble Classifier from 3-12 & 0.681788597 & 0.741733923 & 0.806300443 & 0.848281697 & 0.862101883 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 3-18 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 3-18 & 0.609767196 & 0.594952381 & 0.660169312 & 0.681968254 & 0.695566138 \\ \hline 
+Classifier from 6-18 & 0.572687831 & 0.620539683 & 0.672899471 & 0.701925926 & 0.703068783 \\ \hline 
+Classifier from 12-18 & 0.63631746 & 0.622613757 & 0.670486772 & 0.705968254 & 0.705396825 \\ \hline 
+Ensemble Classifier from 3-18 & 0.624603175 & 0.648412698 & 0.699714286 & 0.724349206 & 0.727809524 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 6-12 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 6-12 & 0.593031329 & 0.650177905 & 0.746290029 & 0.799487981 & 0.822073245 \\ \hline 
+Ensemble Classifier from 6-12 & 0.593031329 & 0.650177905 & 0.746290029 & 0.799487981 & 0.822073245 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 6-18 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 6-18 & 0.572687831 & 0.620539683 & 0.672899471 & 0.701925926 & 0.703068783 \\ \hline 
+Classifier from 12-18 & 0.63631746 & 0.622613757 & 0.670486772 & 0.705968254 & 0.705396825 \\ \hline 
+Ensemble Classifier from 6-18 & 0.61378836 & 0.657851852 & 0.68815873 & 0.716761905 & 0.719322751 \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Classifiers for the period: 12-18 &   &   &   &   &   \\ \hline 
+Classifiers & AUC  & AUC & AUC & AUC & AUC \\ \hline 
+Classifier from 12-18 & 0.63631746 & 0.622613757 & 0.670486772 & 0.705968254 & 0.705396825 \\ \hline 
+Ensemble Classifier from 12-18 & 0.63631746 & 0.622613757 & 0.670486772 & 0.705968254 & 0.705396825 \\ \hline 
+ &  &  &  &  &  \\ \hline 
+ &  &  &  &  &  \\ \hline 
+ & J48 & randomTree & randomForest10 & randomForest20 & randomForest30 \\ \hline 
+Average AUC & 0.65334207 & 0.678926669 & 0.748847633 & 0.771590734 & 0.781102308 \\ \hline 
+\end{tabular}
+\end{table*}

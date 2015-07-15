@@ -1,0 +1,23 @@
+There are a total of 22 attributes with the following filterfilter
+﻿PatientID
+GDF15
+Age01_baseLine_other_data
+Estimatedduration_baseLine_other_data
+CAD_baseLine_other_data
+DCM_baseLine_other_data
+Hyperchol_baseLine_other_data
+Kidney_disease_baseLine_other_data
+CTD_baseLine_other_data
+Comorb_baseLine_other_data
+Comorb_wo_hypertension_baseLine_other_data
+Synkope_baseLine_other_data
+NYHA_baseLine_other_data
+NYHA_class_baseLine_other_data
+NYHA_III_baseLine_other_data
+Nocturia_baseLine_other_data
+Rales_baseLine_other_data
+SystmurmurMR_baseLine_other_data
+Rales_01_baseLine_other_data
+Hygiene_baseLine_other_data
+BNP_resource_baseLine_other_data
+Death

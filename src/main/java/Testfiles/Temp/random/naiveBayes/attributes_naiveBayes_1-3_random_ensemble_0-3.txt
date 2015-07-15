@@ -1,0 +1,7 @@
+There are a total of 6 attributes with the following filterrandom
+﻿PatientID
+CTD_baseLine_other_data
+Hepatomegaly_baseLine_other_data
+ALT_baseLine_other_data
+Pet_baseLine_other_data
+Death

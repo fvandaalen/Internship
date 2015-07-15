@@ -1,0 +1,17 @@
+There are a total of 16 attributes with the following filterrandom
+﻿PatientID
+Uric_acid
+PAOD_baseLine_other_data
+AAthoraxdim_baseLine_other_data
+Dementia_baseLine_other_data
+Comorb_wo_hypertension_baseLine_other_data
+Prostata_baseLine_other_data
+Epilepsie_baseLine_other_data
+ObstruktiveSchlafapnoe_baseLine_other_data
+HR_baseLine_other_data
+Jugularvein_01_baseLine_other_data
+Urea_baseLine_other_data
+Eosinophiles_baseLine_other_data
+Married01_baseLine_other_data
+filter_$_baseLine_other_data
+Death

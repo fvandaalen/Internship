@@ -1,0 +1,10 @@
+There are a total of 9 attributes with the following filterrandom
+﻿PatientID
+CABG_baseLine_other_data
+CTD_baseLine_other_data
+Augenerkrankungen_baseLine_other_data
+Leuk�mien_baseLine_other_data
+ALT_baseLine_other_data
+Pet_baseLine_other_data
+Inclusion_CE_baseLine_other_data
+Death

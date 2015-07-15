@@ -1,0 +1,125 @@
+Achieved AUC: 0.7487830687830688
+
+
+
+Selected Features for ensemble: 1-5
+
+
+
+Classifier 1 5has the following pvalues & tvalues & 473degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 17.13339151983439
+Attribute: sFlt Pvalue: 5.0E-4 Tvalue: 5.333855177920101
+Attribute: hsTnT Pvalue: 0.4 Tvalue: -0.004057157823249577
+Attribute: Uric_acid Pvalue: 0.4 Tvalue: -0.004195832279574063
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.1762420817539965
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.13009677579742404
+Attribute: sST2 Pvalue: 0.4 Tvalue: -1.1231723270132159E-5
+Attribute: Age01_baseLine_other_data Pvalue: 0.4 Tvalue: 0.0034884227661055875
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 0.4 Tvalue: -3.4059873383647297
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 0.4 Tvalue: -1.4475897749811175
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.2 Tvalue: 0.6468367534589831
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -5.538651533846052
+Attribute: Ant_MI_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 3.716847734778625
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -3.4015761530501702
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 4.907125069367751
+Attribute: Smoking_baseLine_other_data Pvalue: 0.4 Tvalue: 0.0027462785558382474
+Attribute: Current_smoking_baseLine_other_data Pvalue: 0.4 Tvalue: 0.0122450255786264
+Attribute: Stopyears_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 11.212129613180204
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -0.012418671034320004
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 0.4 Tvalue: -1.1489261583929518
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.2 Tvalue: 0.6146978442381659
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -2.1254002097283964
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.005 Tvalue: 2.4331370030705437
+Attribute: Urea_baseLine_other_data Pvalue: 0.4 Tvalue: -9.592663579175712
+Attribute: Socialstatus_baseLine_other_data Pvalue: 0.4 Tvalue: -0.12939260176528994
+Attribute: Death or Hospitalization Pvalue: 0.15 Tvalue: 0.9926586725424887
+
+
+
+Classifier 2 5has the following pvalues & tvalues & 473degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 22.660339498983188
+Attribute: sFlt Pvalue: 5.0E-4 Tvalue: 4.871653393634175
+Attribute: hsTnT Pvalue: 0.4 Tvalue: -0.007324437272357321
+Attribute: Uric_acid Pvalue: 0.4 Tvalue: -2.8838980383090517E-4
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.12382331421587237
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.04838308477865007
+Attribute: sST2 Pvalue: 0.4 Tvalue: -1.7127712286616103E-5
+Attribute: Age01_baseLine_other_data Pvalue: 0.4 Tvalue: -0.005546065411966784
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 0.4 Tvalue: -4.0371429070207725
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 0.4 Tvalue: -1.4308931799190023
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.3 Tvalue: 0.3263636560150354
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -7.662656207710861
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.015 Tvalue: 2.0589097044112443
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -2.8654501890367383
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 5.29424819261319
+Attribute: Smoking_baseLine_other_data Pvalue: 0.4 Tvalue: -0.8614941259851461
+Attribute: Current_smoking_baseLine_other_data Pvalue: 0.3 Tvalue: 0.4396760944275631
+Attribute: Stopyears_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 9.009159913948205
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -0.012161622337102503
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 0.4 Tvalue: -1.285520149545131
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.2 Tvalue: 0.7013641314390165
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -1.145763207436947
+Attribute: Rales_01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 3.0496402259901463
+Attribute: Urea_baseLine_other_data Pvalue: 0.4 Tvalue: -11.455162341776454
+Attribute: Socialstatus_baseLine_other_data Pvalue: 0.4 Tvalue: -0.17731629104485655
+Attribute: Death or Hospitalization Pvalue: 0.15 Tvalue: 0.9398700901933429
+
+
+
+Classifier 3 5has the following pvalues & tvalues & 473degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 29.799804738980807
+Attribute: sFlt Pvalue: 0.01 Tvalue: 2.2859029648702918
+Attribute: hsTnT Pvalue: 0.4 Tvalue: -0.02619699338047769
+Attribute: Uric_acid Pvalue: 0.4 Tvalue: -0.006663180925543229
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.37785333473643956
+Attribute: GDF15 Pvalue: 0.4 Tvalue: 0.03577225619019871
+Attribute: sST2 Pvalue: 0.4 Tvalue: -2.479105488915051E-5
+Attribute: Age01_baseLine_other_data Pvalue: 0.4 Tvalue: -0.009190343580853362
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 0.4 Tvalue: -4.0546190655241645
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 0.4 Tvalue: -1.531804474188998
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.05 Tvalue: 1.4080105755588037
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -4.220632181504786
+Attribute: Ant_MI_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 3.673180581301541
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -3.3610093241507983
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 6.327248181812208
+Attribute: Smoking_baseLine_other_data Pvalue: 0.2 Tvalue: 0.8337589462091076
+Attribute: Current_smoking_baseLine_other_data Pvalue: 0.4 Tvalue: -0.03870153124380399
+Attribute: Stopyears_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 8.27210061560778
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -0.02060588873142547
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 0.4 Tvalue: -1.5487298580773574
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.1 Tvalue: 1.166416189015397
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -1.4069442669781114
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.015 Tvalue: 2.143288465432455
+Attribute: Urea_baseLine_other_data Pvalue: 0.4 Tvalue: -10.836383978744793
+Attribute: Socialstatus_baseLine_other_data Pvalue: 0.4 Tvalue: -0.13070523828789368
+Attribute: Death or Hospitalization Pvalue: 0.05 Tvalue: 1.4804031846384773
+
+
+
+Classifier 4 5has the following pvalues & tvalues & 473degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 23.070919297555267
+Attribute: sFlt Pvalue: 5.0E-4 Tvalue: 5.694050515689613
+Attribute: hsTnT Pvalue: 0.4 Tvalue: 0.0015620279080234593
+Attribute: Uric_acid Pvalue: 0.4 Tvalue: 0.001107666252053339
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.7214276153600842
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.176454202473871
+Attribute: sST2 Pvalue: 0.4 Tvalue: -2.2056902229658697E-5
+Attribute: Age01_baseLine_other_data Pvalue: 0.4 Tvalue: -0.014187598788856606
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 0.4 Tvalue: -4.828678387060903
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 0.4 Tvalue: -1.7557015177941968
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.1 Tvalue: 1.0792684991314052
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -4.38673495535243
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.005 Tvalue: 2.5156093308993355
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -5.048489877667384
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 7.347164414284093
+Attribute: Smoking_baseLine_other_data Pvalue: 0.02 Tvalue: 1.9984377696287157
+Attribute: Current_smoking_baseLine_other_data Pvalue: 0.4 Tvalue: 0.24409404193217005
+Attribute: Stopyears_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 10.05684491601981
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -0.012851454778842357
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 0.4 Tvalue: -1.480505365444253
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.1 Tvalue: 1.1785051561475957
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -0.9101164570934652
+Attribute: Rales_01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 3.457970535959743
+Attribute: Urea_baseLine_other_data Pvalue: 0.4 Tvalue: -11.809459109020578
+Attribute: Socialstatus_baseLine_other_data Pvalue: 0.4 Tvalue: -0.12818454037642188
+Attribute: Death or Hospitalization Pvalue: 0.1 Tvalue: 1.1462589273097479

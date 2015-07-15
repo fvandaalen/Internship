@@ -1,0 +1,95 @@
+Achieved AUC: 0.8310986722207759
+
+
+
+Selected Features for ensemble: 1-4
+
+
+
+Classifier 1 4has the following pvalues & tvalues & 519degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 285.61026485537366
+Attribute: IL6 Pvalue: 0.4 Tvalue: -7.276806349407713
+Attribute: sFlt Pvalue: 0.4 Tvalue: 0.009193505482088908
+Attribute: hsTnT Pvalue: 0.4 Tvalue: 0.01009342381442507
+Attribute: GDF15 Pvalue: 0.4 Tvalue: 0.003788026989188876
+Attribute: sST2 Pvalue: 0.4 Tvalue: -2.6929087798156755E-5
+Attribute: BMI_02_baseLine_other_data Pvalue: 0.4 Tvalue: -0.07016507299853705
+Attribute: BMI_01_baseLine_other_data Pvalue: 0.4 Tvalue: -14.525030234737843
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 39.71401074104123
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -8.764419935178497
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -63.759316111495856
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -13.249871846301106
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -10.962069109811766
+Attribute: DCM_baseLine_other_data Pvalue: 0.15 Tvalue: 0.9429174882550987
+Attribute: Insulin_baseLine_other_data Pvalue: 0.4 Tvalue: -35.19888457272391
+Attribute: End_organ_damage_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 10.697106870924955
+Attribute: AAthoraxdim_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 2.829119412400576
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -0.18961049615942466
+Attribute: comorb02_baseLine_other_data Pvalue: 0.4 Tvalue: -1.2885012136552425
+Attribute: Harnwegsinfekt_baseLine_other_data Pvalue: 0.4 Tvalue: -7.628523984962916
+Attribute: StnKlappenOP_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 419.4317695688934
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1320.308127575631
+Attribute: NYHA_class_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 13.35753323551447
+Attribute: NYHA_III_baseLine_other_data Pvalue: 0.025 Tvalue: 1.6925840782563533
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -26.19068154951392
+Attribute: Death or Hospitalization Pvalue: 0.025 Tvalue: 1.9072592472969219
+
+
+
+Classifier 2 4has the following pvalues & tvalues & 519degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 275.0046528859566
+Attribute: IL6 Pvalue: 5.0E-4 Tvalue: 5.782787063722213
+Attribute: sFlt Pvalue: 0.4 Tvalue: -0.09882035440334681
+Attribute: hsTnT Pvalue: 0.4 Tvalue: -0.0028155574077061945
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.0012805208551168307
+Attribute: sST2 Pvalue: 0.4 Tvalue: -1.0927516636617665E-4
+Attribute: BMI_02_baseLine_other_data Pvalue: 0.4 Tvalue: 0.005077665943870593
+Attribute: BMI_01_baseLine_other_data Pvalue: 0.4 Tvalue: -16.593558423543474
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 42.33960112009931
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -7.608733866409466
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -63.30312753731891
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -19.918101441729505
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -11.370294350109198
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 4.223249690684384
+Attribute: Insulin_baseLine_other_data Pvalue: 0.4 Tvalue: -30.104593361504154
+Attribute: End_organ_damage_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 18.527882018464705
+Attribute: AAthoraxdim_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 6.89805689916459
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -0.180329436975693
+Attribute: comorb02_baseLine_other_data Pvalue: 0.4 Tvalue: -1.6968455194100645
+Attribute: Harnwegsinfekt_baseLine_other_data Pvalue: 0.4 Tvalue: -8.364042388308274
+Attribute: StnKlappenOP_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 610.4335028201514
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 522.2126301394893
+Attribute: NYHA_class_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 23.887247587826526
+Attribute: NYHA_III_baseLine_other_data Pvalue: 0.4 Tvalue: -1.9490153890791515
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -26.31602709015033
+Attribute: Death or Hospitalization Pvalue: 0.01 Tvalue: 2.3201775842594383
+
+
+
+Classifier 3 4has the following pvalues & tvalues & 519degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 833.0059062014126
+Attribute: IL6 Pvalue: 0.4 Tvalue: -0.8433285499182526
+Attribute: sFlt Pvalue: 0.4 Tvalue: 0.0225847857041669
+Attribute: hsTnT Pvalue: 0.4 Tvalue: 0.002268242180712209
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.009815917535675098
+Attribute: sST2 Pvalue: 0.4 Tvalue: -9.490626523778291E-5
+Attribute: BMI_02_baseLine_other_data Pvalue: 0.4 Tvalue: -0.0759985976066664
+Attribute: BMI_01_baseLine_other_data Pvalue: 0.4 Tvalue: -13.182251320417922
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 41.0092025179145
+Attribute: Main_CAD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 7.6445597118615645
+Attribute: CAD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 18.8561718384772
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -17.278101568106244
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -14.707925064045813
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 6.414487400264417
+Attribute: Insulin_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 34.64229780334791
+Attribute: End_organ_damage_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 18.12688105931786
+Attribute: AAthoraxdim_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 9.76048499547888
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -0.8398898323310543
+Attribute: comorb02_baseLine_other_data Pvalue: 0.4 Tvalue: -1.6912638756325236
+Attribute: Harnwegsinfekt_baseLine_other_data Pvalue: 0.4 Tvalue: -11.508315323921874
+Attribute: StnKlappenOP_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1262.52068985745
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 435.34101362862236
+Attribute: NYHA_class_baseLine_other_data Pvalue: 0.05 Tvalue: 1.5007928102150492
+Attribute: NYHA_III_baseLine_other_data Pvalue: 0.05 Tvalue: 1.4864561308624498
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -36.10042663852448
+Attribute: Death or Hospitalization Pvalue: 0.02 Tvalue: 1.986194323164207

@@ -1,0 +1,59 @@
+Achieved AUC: 0.8608081699552417
+
+
+
+Selected Features for ensemble: 1-3
+
+
+
+Classifier 1 3has the following pvalues & tvalues & 551degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 200.60498336143866
+Attribute: IL6 Pvalue: 0.4 Tvalue: -14.144666387320042
+Attribute: hsTnT Pvalue: 0.4 Tvalue: 0.05770883534748847
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.005545743211067496
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.08720116471869191
+Attribute: sST2 Pvalue: 0.4 Tvalue: 1.6138286750787886E-5
+Attribute: Firstmanifest_baseLine_other_data Pvalue: 0.4 Tvalue: -0.1311543198864285
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -0.0510305790890514
+Attribute: DCM_baseLine_other_data Pvalue: 0.4 Tvalue: -24.019245350352946
+Attribute: OtherHD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1176.7676996177786
+Attribute: PM01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 639.666093768736
+Attribute: Cancer01_baseLine_other_data Pvalue: 0.4 Tvalue: -32.12680365164769
+Attribute: Metastasis_baseLine_other_data Pvalue: 0.4 Tvalue: -61.03046900630493
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -3249.1106882789013
+Attribute: An�mie_baseLine_other_data Pvalue: 0.4 Tvalue: -0.8285158356595479
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.4 Tvalue: -46.02406394194382
+Attribute: NYHA_III_baseLine_other_data Pvalue: 0.4 Tvalue: -18.236361497568314
+Attribute: Orthopnea_baseLine_other_data Pvalue: 0.4 Tvalue: -28.47201105609367
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -5.271036630728747
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -19.717295881059034
+Attribute: Potassium_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 9.821310120886322
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -7.516666756869328
+Attribute: Death or Hospitalization Pvalue: 5.0E-4 Tvalue: 4.449340893966072
+
+
+
+Classifier 2 3has the following pvalues & tvalues & 551degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 175.08500590736054
+Attribute: IL6 Pvalue: 0.4 Tvalue: -12.4438832963184
+Attribute: hsTnT Pvalue: 0.4 Tvalue: 0.0832608084910477
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.0024471795465643435
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.18794767933484965
+Attribute: sST2 Pvalue: 0.4 Tvalue: -1.0268736670596807E-5
+Attribute: Firstmanifest_baseLine_other_data Pvalue: 0.4 Tvalue: -0.030598374674758098
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -0.10362486849868001
+Attribute: DCM_baseLine_other_data Pvalue: 0.4 Tvalue: -26.273601037198805
+Attribute: OtherHD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1183.6083626860782
+Attribute: PM01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 650.9705147439623
+Attribute: Cancer01_baseLine_other_data Pvalue: 0.4 Tvalue: -32.69854397874936
+Attribute: Metastasis_baseLine_other_data Pvalue: 0.4 Tvalue: -61.42202177744889
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 0.4 Tvalue: -1849.6605559249974
+Attribute: An�mie_baseLine_other_data Pvalue: 0.4 Tvalue: -0.7990387312070144
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.4 Tvalue: -38.9880271203191
+Attribute: NYHA_III_baseLine_other_data Pvalue: 0.4 Tvalue: -11.286752453421725
+Attribute: Orthopnea_baseLine_other_data Pvalue: 0.4 Tvalue: -23.33275472400697
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -5.570703951308783
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -17.361130111859087
+Attribute: Potassium_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 6.58121709024662
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -3.640557608604335
+Attribute: Death or Hospitalization Pvalue: 5.0E-4 Tvalue: 4.203033019030686

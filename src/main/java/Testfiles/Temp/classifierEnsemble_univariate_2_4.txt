@@ -1,0 +1,57 @@
+Achieved AUC: 0.8470667360930313
+
+
+
+Selected Features for ensemble: 2-4
+
+
+
+Classifier 2 4has the following pvalues & tvalues & 523degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 70.68951931540562
+Attribute: IL6 Pvalue: 5.0E-4 Tvalue: 5.311622054299297
+Attribute: sFlt Pvalue: 0.4 Tvalue: -0.11096683688820766
+Attribute: hsTnT Pvalue: 0.4 Tvalue: -0.003054815297494229
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -9.905080929331043E-4
+Attribute: sST2 Pvalue: 0.4 Tvalue: -9.359120079324431E-5
+Attribute: BMI_02_baseLine_other_data Pvalue: 0.4 Tvalue: 0.004081501243534652
+Attribute: BMI_01_baseLine_other_data Pvalue: 0.4 Tvalue: -15.027537674912596
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 41.44409289042798
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -0.8293394824969085
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -23.065474878734985
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -21.287199523227322
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -8.19988643072032
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 3.090685452376855
+Attribute: comorb02_baseLine_other_data Pvalue: 0.4 Tvalue: -0.949864869030582
+Attribute: Harnwegsinfekt_baseLine_other_data Pvalue: 0.4 Tvalue: -6.767750671234378
+Attribute: StnKlappenOP_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 446.1150449242235
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 683.0539401746299
+Attribute: NYHA_class_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 18.89141819120408
+Attribute: NYHA_III_baseLine_other_data Pvalue: 0.4 Tvalue: 0.08700599582952671
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -26.631307635920315
+Attribute: Death or Hospitalization Pvalue: 0.015 Tvalue: 2.082756501594374
+
+
+
+Classifier 3 4has the following pvalues & tvalues & 523degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 103.06020617480986
+Attribute: IL6 Pvalue: 0.4 Tvalue: -1.2055397768740896
+Attribute: sFlt Pvalue: 0.4 Tvalue: 0.03181799919462444
+Attribute: hsTnT Pvalue: 0.4 Tvalue: -0.0033215080488871525
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.0080631523973446
+Attribute: sST2 Pvalue: 0.4 Tvalue: -9.14382809570811E-5
+Attribute: BMI_02_baseLine_other_data Pvalue: 0.4 Tvalue: -0.07814197902640266
+Attribute: BMI_01_baseLine_other_data Pvalue: 0.4 Tvalue: -11.921555500240148
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 41.883820396376564
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -0.4511686427718456
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -20.120550338442637
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -23.283101884086484
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -15.398653551684388
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 7.295661775415791
+Attribute: comorb02_baseLine_other_data Pvalue: 0.4 Tvalue: -0.6369296960909918
+Attribute: Harnwegsinfekt_baseLine_other_data Pvalue: 0.4 Tvalue: -10.778026891851763
+Attribute: StnKlappenOP_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1827.3303309839498
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 473.3140821236516
+Attribute: NYHA_class_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 5.034014825553614
+Attribute: NYHA_III_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 5.001710924447432
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -38.66366249960796
+Attribute: Death or Hospitalization Pvalue: 0.02 Tvalue: 1.9988579334064192

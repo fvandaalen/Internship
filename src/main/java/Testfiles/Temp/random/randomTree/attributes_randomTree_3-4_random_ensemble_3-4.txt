@@ -1,0 +1,13 @@
+There are a total of 12 attributes with the following filterrandom
+﻿PatientID
+PAOD_baseLine_other_data
+Prostata_baseLine_other_data
+HR_baseLine_other_data
+Jugularvein_01_baseLine_other_data
+BNP0_ln_baseLine_other_data
+Urea_baseLine_other_data
+Eosinophiles_baseLine_other_data
+Married01_baseLine_other_data
+Pet02_baseLine_other_data
+filter_$_baseLine_other_data
+Death

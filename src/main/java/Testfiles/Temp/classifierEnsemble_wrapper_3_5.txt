@@ -1,0 +1,59 @@
+Achieved AUC: 0.755100529100529
+
+
+
+Selected Features for ensemble: 3-5
+
+
+
+Classifier 3 5has the following pvalues & tvalues & 476degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 23.75743936461026
+Attribute: sFlt Pvalue: 0.025 Tvalue: 1.7996241052623672
+Attribute: hsTnT Pvalue: 0.4 Tvalue: -0.02638774605853702
+Attribute: Uric_acid Pvalue: 0.4 Tvalue: -0.007179845668052585
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.2623008048339214
+Attribute: GDF15 Pvalue: 0.4 Tvalue: 0.035368023832182384
+Attribute: sST2 Pvalue: 0.4 Tvalue: -2.639169087528891E-5
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 0.4 Tvalue: -0.00554504157674185
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 0.4 Tvalue: -1.6471193699347229
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.025 Tvalue: 1.800981977009825
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -2.1164595798127497
+Attribute: Ant_MI_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 3.7588218967970617
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -2.7164987734840143
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 5.455801672224006
+Attribute: Smoking_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 4.2890646091843045
+Attribute: Current_smoking_baseLine_other_data Pvalue: 0.3 Tvalue: 0.3295859933585249
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 8.736010066646989
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 0.4 Tvalue: -1.4717442480492442
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.1 Tvalue: 1.0568101317505352
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -1.3235075231218314
+Attribute: Urea_baseLine_other_data Pvalue: 0.4 Tvalue: -7.492082078745976
+Attribute: Socialstatus_baseLine_other_data Pvalue: 0.4 Tvalue: -0.12433022844104334
+Attribute: Death or Hospitalization Pvalue: 0.05 Tvalue: 1.5844010499108083
+
+
+
+Classifier 4 5has the following pvalues & tvalues & 476degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 18.163768340036558
+Attribute: sFlt Pvalue: 5.0E-4 Tvalue: 4.998160966524304
+Attribute: hsTnT Pvalue: 0.4 Tvalue: 0.001294836845367722
+Attribute: Uric_acid Pvalue: 0.4 Tvalue: 8.330957280638855E-4
+Attribute: Urea Pvalue: 0.4 Tvalue: -0.6727462719364554
+Attribute: GDF15 Pvalue: 0.4 Tvalue: -0.16391447633680906
+Attribute: sST2 Pvalue: 0.4 Tvalue: -2.2735198628203825E-5
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 0.4 Tvalue: -0.011008893966056763
+Attribute: Causeofheartfailure_baseLine_other_data Pvalue: 0.4 Tvalue: -1.865847182669745
+Attribute: Main_CAD_baseLine_other_data Pvalue: 0.05 Tvalue: 1.289660701556556
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -2.8361069182593077
+Attribute: Ant_MI_baseLine_other_data Pvalue: 0.0025 Tvalue: 2.754836550595011
+Attribute: Hist_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -4.127462271351884
+Attribute: DCM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 5.984982068521494
+Attribute: Smoking_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 4.668517552922285
+Attribute: Current_smoking_baseLine_other_data Pvalue: 0.2 Tvalue: 0.7429165613227159
+Attribute: CharlsonScore_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 10.01812567754715
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 0.4 Tvalue: -1.3179364959602038
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.15 Tvalue: 0.9558541195012064
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -1.2770890974318863
+Attribute: Urea_baseLine_other_data Pvalue: 0.4 Tvalue: -6.348759439211609
+Attribute: Socialstatus_baseLine_other_data Pvalue: 0.4 Tvalue: -0.11140992725851068
+Attribute: Death or Hospitalization Pvalue: 0.05 Tvalue: 1.3257813974594685

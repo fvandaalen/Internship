@@ -1,0 +1,14 @@
+There are a total of 13 attributes with the following filterrandom
+﻿PatientID
+SHBG
+Syst_dysfunction_baseLine_other_data
+Prev_Hosp_baseLine_other_data
+Hyperchol_baseLine_other_data
+End_organ_damage_baseLine_other_data
+Recurr_stroke_baseLine_other_data
+AAthoraxdim_baseLine_other_data
+CarotisTEA_baseLine_other_data
+BPsyststanding_baseLine_other_data
+BNP_lg10_baseLine_other_data
+HDL_baseLine_other_data
+Death

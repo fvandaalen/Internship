@@ -1,0 +1,182 @@
+Achieved AUC: 0.7843877462466371
+
+
+
+Selected Features for ensemble: 3-4
+ï»¿PatientID
+CysC
+PREA
+sFlt
+SHBG
+sTFR
+tP1NP
+Transferrin
+Uric_acid
+sST2
+Height_baseLine_other_data
+Age_baseLine_other_data
+Preserved_LVEF_baseLine_other_data
+Prev_Hosp_baseLine_other_data
+CAD_baseLine_other_data
+Other_MI_baseLine_other_data
+Hypertension_baseLine_other_data
+HHD_baseLine_other_data
+ValvHD_baseLine_other_data
+ICD_baseLine_other_data
+FamHist_baseLine_other_data
+Diabetes_baseLine_other_data
+Insulin_baseLine_other_data
+cvi01_baseLine_other_data
+COPD01_baseLine_other_data
+PAOD_baseLine_other_data
+AAabd_baseLine_other_data
+Cancer01_baseLine_other_data
+Depression_baseLine_other_data
+Ulcer_baseLine_other_data
+Nierenerkrankungen_baseLine_other_data
+Hyperuricemia_baseLine_other_data
+Arthrosis_baseLine_other_data
+CTD_baseLine_other_data
+comorb02_baseLine_other_data
+PAHT_baseLine_other_data
+Harnwegsinfekt_baseLine_other_data
+Gallenblase_baseLine_other_data
+StnAbdominalOP_baseLine_other_data
+Hyperthyreose_baseLine_other_data
+Hypothyreose_baseLine_other_data
+Augenerkrankungen_baseLine_other_data
+Anï¿½mie_baseLine_other_data
+Neuropathien_baseLine_other_data
+Leukï¿½mien_baseLine_other_data
+RestriktivePneumopathien_baseLine_other_data
+ObstruktiveSchlafapnoe_baseLine_other_data
+Allergien_baseLine_other_data
+Zweittumor_baseLine_other_data
+NYHA_class_baseLine_other_data
+NYHA_III_baseLine_other_data
+Angina_baseLine_other_data
+Angina01_baseLine_other_data
+Nocturia_baseLine_other_data
+Orthostasis_baseLine_other_data
+Syncope_baseLine_other_data
+Coughdry_baseLine_other_data
+BPdiast_baseLine_other_data
+HR_baseLine_other_data
+BPdiaststanding_baseLine_other_data
+HRstanding_baseLine_other_data
+Rales_baseLine_other_data
+S4_baseLine_other_data
+SystmurmurMR_baseLine_other_data
+Jugularvein_baseLine_other_data
+Bronchialobstruction_baseLine_other_data
+Edema_01_baseLine_other_data
+BNP_lg10_baseLine_other_data
+Potassium_baseLine_other_data
+Sodium_baseLine_other_data
+Urea_baseLine_other_data
+Ec_baseLine_other_data
+Lc_baseLine_other_data
+Eosinophiles_baseLine_other_data
+Chol_baseLine_other_data
+HDL_baseLine_other_data
+LDL_baseLine_other_data
+Triglyc_baseLine_other_data
+CRPsensitive_baseLine_other_data
+HRECG_baseLine_other_data
+Sinus_VHF_PM_baseLine_other_data
+PQ_baseLine_other_data
+QT_baseLine_other_data
+Living_baseLine_other_data
+dog_BL_baseLine_other_data
+Echocardiography548_baseLine_other_data
+Death or Hospitalization
+
+
+
+Classifier 3 4has the following pvalues & tvalues & 459degrees of freedom
+Attribute: CysC Pvalue: 0.4 Tvalue: -19206.443279296167
+Attribute: PREA Pvalue: 0.4 Tvalue: -637.8355078106662
+Attribute: sFlt Pvalue: 5.0E-4 Tvalue: 9066.692122887946
+Attribute: SHBG Pvalue: 0.4 Tvalue: -2.5218169401634025
+Attribute: sTFR Pvalue: 5.0E-4 Tvalue: 5.336706201733285
+Attribute: tP1NP Pvalue: 0.4 Tvalue: -371.03147705225723
+Attribute: Transferrin Pvalue: 0.1 Tvalue: 1.2163961406185946
+Attribute: Uric_acid Pvalue: 5.0E-4 Tvalue: 1916.6586049887208
+Attribute: sST2 Pvalue: 0.015 Tvalue: 2.13998205429705
+Attribute: Height_baseLine_other_data Pvalue: 0.4 Tvalue: -3.309096512234842
+Attribute: Age_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 4.92747419608057
+Attribute: Preserved_LVEF_baseLine_other_data Pvalue: 0.4 Tvalue: -4.621569275311564
+Attribute: Prev_Hosp_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1105.575720288793
+Attribute: CAD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 516.1821061522675
+Attribute: Other_MI_baseLine_other_data Pvalue: 0.4 Tvalue: -2162.2855879712674
+Attribute: Hypertension_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 242.19719683902443
+Attribute: HHD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 49.49578184109298
+Attribute: ValvHD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 197.81739942023685
+Attribute: ICD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 554.2495307866872
+Attribute: FamHist_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 2776.9662140645005
+Attribute: Diabetes_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1731.8092615517087
+Attribute: Insulin_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 571.9892597012669
+Attribute: cvi01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 769.7364369635571
+Attribute: COPD01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 398.77019477048674
+Attribute: PAOD_baseLine_other_data Pvalue: 0.4 Tvalue: -268.2212084258906
+Attribute: AAabd_baseLine_other_data Pvalue: 0.4 Tvalue: -89.08218758231075
+Attribute: Cancer01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1530.7403275261624
+Attribute: Depression_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 377.6647101505113
+Attribute: Ulcer_baseLine_other_data Pvalue: 0.4 Tvalue: -215.31710080841827
+Attribute: Nierenerkrankungen_baseLine_other_data Pvalue: 0.4 Tvalue: -588.4675711593551
+Attribute: Hyperuricemia_baseLine_other_data Pvalue: 0.4 Tvalue: -4757.217231957295
+Attribute: Arthrosis_baseLine_other_data Pvalue: 0.4 Tvalue: -138.6281385880493
+Attribute: CTD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 111.24156138409109
+Attribute: comorb02_baseLine_other_data Pvalue: 0.4 Tvalue: -373.7126968906213
+Attribute: PAHT_baseLine_other_data Pvalue: 0.4 Tvalue: -2830.027832758039
+Attribute: Harnwegsinfekt_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 809.7911769458277
+Attribute: Gallenblase_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 10441.231330890725
+Attribute: StnAbdominalOP_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 2904.051129345983
+Attribute: Hyperthyreose_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 887.4399316122842
+Attribute: Hypothyreose_baseLine_other_data Pvalue: 0.4 Tvalue: -438.3007481387873
+Attribute: Augenerkrankungen_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 451.042000830372
+Attribute: Anï¿½mie_baseLine_other_data Pvalue: 0.4 Tvalue: -404.24712535019245
+Attribute: Neuropathien_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 676.76130990287
+Attribute: Leukï¿½mien_baseLine_other_data Pvalue: 0.4 Tvalue: -3430.392979869946
+Attribute: RestriktivePneumopathien_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 8759.879113716406
+Attribute: ObstruktiveSchlafapnoe_baseLine_other_data Pvalue: 0.4 Tvalue: -1310.745840622077
+Attribute: Allergien_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1450.091395317366
+Attribute: Zweittumor_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1258.5603869735164
+Attribute: NYHA_class_baseLine_other_data Pvalue: 0.4 Tvalue: -1161.9004989209213
+Attribute: NYHA_III_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 469.3377998304438
+Attribute: Angina_baseLine_other_data Pvalue: 0.4 Tvalue: -1307.1017205100525
+Attribute: Angina01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 369.2249355972535
+Attribute: Nocturia_baseLine_other_data Pvalue: 0.4 Tvalue: -129.82310021319907
+Attribute: Orthostasis_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 432.37178645369625
+Attribute: Syncope_baseLine_other_data Pvalue: 0.4 Tvalue: -215.25284864972375
+Attribute: Coughdry_baseLine_other_data Pvalue: 0.4 Tvalue: -1006.287855761354
+Attribute: BPdiast_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 109.24063718983658
+Attribute: HR_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 36.67767501976832
+Attribute: BPdiaststanding_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 7.553250141195686
+Attribute: HRstanding_baseLine_other_data Pvalue: 0.4 Tvalue: -16.415314537377018
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -6.084794235796796
+Attribute: S4_baseLine_other_data Pvalue: 0.4 Tvalue: -249.8707762587551
+Attribute: SystmurmurMR_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1254.9423771069278
+Attribute: Jugularvein_baseLine_other_data Pvalue: 0.4 Tvalue: -119.44315839585822
+Attribute: Bronchialobstruction_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 415.0401663561907
+Attribute: Edema_01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 235.76284651000284
+Attribute: BNP_lg10_baseLine_other_data Pvalue: 0.4 Tvalue: -598.2603183389642
+Attribute: Potassium_baseLine_other_data Pvalue: 0.4 Tvalue: -2146.6026364234112
+Attribute: Sodium_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1520.3396615298882
+Attribute: Urea_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 24.233016518335337
+Attribute: Ec_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 4.684325603572923
+Attribute: Lc_baseLine_other_data Pvalue: 0.4 Tvalue: -250.37561043397002
+Attribute: Eosinophiles_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 34.28910483166056
+Attribute: Chol_baseLine_other_data Pvalue: 0.4 Tvalue: -19860.667019784734
+Attribute: HDL_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1241.33846678708
+Attribute: LDL_baseLine_other_data Pvalue: 0.4 Tvalue: -2448.5745139136457
+Attribute: Triglyc_baseLine_other_data Pvalue: 0.4 Tvalue: -1764.3279257417416
+Attribute: CRPsensitive_baseLine_other_data Pvalue: 0.4 Tvalue: -0.4931906642828998
+Attribute: HRECG_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 7.505124567462611
+Attribute: Sinus_VHF_PM_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 4.650671469758815
+Attribute: PQ_baseLine_other_data Pvalue: 0.4 Tvalue: -224.12680172549787
+Attribute: QT_baseLine_other_data Pvalue: 0.15 Tvalue: 0.8754270422289262
+Attribute: Living_baseLine_other_data Pvalue: 0.15 Tvalue: 0.9101479417635151
+Attribute: dog_BL_baseLine_other_data Pvalue: 0.4 Tvalue: -110.2496447383219
+Attribute: Echocardiography548_baseLine_other_data Pvalue: 0.4 Tvalue: -207.63689932891435
+Attribute: Death or Hospitalization Pvalue: 5.0E-4 Tvalue: 2129.9729728771435

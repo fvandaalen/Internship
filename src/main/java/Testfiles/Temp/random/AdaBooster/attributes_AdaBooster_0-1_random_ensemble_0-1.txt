@@ -1,0 +1,9 @@
+There are a total of 8 attributes with the following filterrandom
+﻿PatientID
+Gallenblase_baseLine_other_data
+RestriktivePneumopathien_baseLine_other_data
+Edema_01_baseLine_other_data
+Rhythm_baseLine_other_data
+QRS_baseLine_other_data
+Socialstatus_baseLine_other_data
+Death

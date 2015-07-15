@@ -1,0 +1,7 @@
+There are a total of 6 attributes with the following filterrandom
+﻿PatientID
+PREA
+hsTnT
+Hist_MI_baseLine_other_data
+Comorb_baseLine_other_data
+Death

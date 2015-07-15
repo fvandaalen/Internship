@@ -1,0 +1,67 @@
+Achieved AUC: 0.9056609623015873
+
+
+
+Selected Features for ensemble: 0-2
+
+
+
+Classifier 0 2has the following pvalues & tvalues & 575degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 126.56664663059678
+Attribute: IL6 Pvalue: 5.0E-4 Tvalue: 13.032845804829975
+Attribute: PAPPA Pvalue: 0.4 Tvalue: 0.013570607834196743
+Attribute: PREA Pvalue: 0.4 Tvalue: -6.956680942016425
+Attribute: sFlt Pvalue: 0.4 Tvalue: -31.103569020112097
+Attribute: GDF15 Pvalue: 0.4 Tvalue: 0.025736770227628266
+Attribute: sST2 Pvalue: 0.4 Tvalue: -1.6813304884649556E-4
+Attribute: Age01_baseLine_other_data Pvalue: 0.4 Tvalue: -0.010689373208687635
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 0.4 Tvalue: -15.021372398778638
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -23.92783790650233
+Attribute: DCM_baseLine_other_data Pvalue: 0.4 Tvalue: -4.910652957786762
+Attribute: Kidney_disease_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 598.8151768831193
+Attribute: CTD_baseLine_other_data Pvalue: 0.4 Tvalue: -1.5500562450869049
+Attribute: Comorb_baseLine_other_data Pvalue: 0.4 Tvalue: -112.15933842981114
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 6.853989204278435
+Attribute: Synkope_baseLine_other_data Pvalue: 0.4 Tvalue: -12.81766187482341
+Attribute: Hyperthyreose_baseLine_other_data Pvalue: 0.4 Tvalue: -16.09033780130039
+Attribute: NYHA_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1710.0309796595138
+Attribute: NYHA_class_baseLine_other_data Pvalue: 0.4 Tvalue: -16.754353124489622
+Attribute: NYHA_III_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 51.91774700863356
+Attribute: Nocturia_baseLine_other_data Pvalue: 0.4 Tvalue: -12.329154348780747
+Attribute: Rales_baseLine_other_data Pvalue: 0.015 Tvalue: 2.1269053653079966
+Attribute: SystmurmurMR_baseLine_other_data Pvalue: 0.4 Tvalue: -17.617059444739375
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -1.4097063910432868
+Attribute: Hygiene_baseLine_other_data Pvalue: 0.4 Tvalue: -25.030032951413713
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -17.20603140175247
+Attribute: Death or Hospitalization Pvalue: 5.0E-4 Tvalue: 8.334470798677309
+
+
+
+Classifier 1 2has the following pvalues & tvalues & 575degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 213.99454747820607
+Attribute: IL6 Pvalue: 5.0E-4 Tvalue: 8.069342187596114
+Attribute: PAPPA Pvalue: 0.4 Tvalue: -0.10557408299008425
+Attribute: PREA Pvalue: 0.4 Tvalue: -64.24709427140293
+Attribute: sFlt Pvalue: 5.0E-4 Tvalue: 519.1350560640672
+Attribute: GDF15 Pvalue: 0.4 Tvalue: 0.0980927976106618
+Attribute: sST2 Pvalue: 0.4 Tvalue: -1.774384020791586E-4
+Attribute: Age01_baseLine_other_data Pvalue: 0.4 Tvalue: -0.05893591427278467
+Attribute: Estimatedduration_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 11.471651194115804
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -17.003045315016866
+Attribute: DCM_baseLine_other_data Pvalue: 0.4 Tvalue: -34.42767915448388
+Attribute: Kidney_disease_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1325.8572424624763
+Attribute: CTD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 10.707221067487197
+Attribute: Comorb_baseLine_other_data Pvalue: 0.4 Tvalue: -118.62591340581184
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 9.539473129365449
+Attribute: Synkope_baseLine_other_data Pvalue: 0.4 Tvalue: -15.670487468971773
+Attribute: Hyperthyreose_baseLine_other_data Pvalue: 0.4 Tvalue: -106.48676422693306
+Attribute: NYHA_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 693.1797067652111
+Attribute: NYHA_class_baseLine_other_data Pvalue: 0.4 Tvalue: -18.950316277528948
+Attribute: NYHA_III_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 63.74868085225782
+Attribute: Nocturia_baseLine_other_data Pvalue: 0.4 Tvalue: -78.71087525461178
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -1.6249277465768799
+Attribute: SystmurmurMR_baseLine_other_data Pvalue: 0.4 Tvalue: -11.02132558252965
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -0.505368888953348
+Attribute: Hygiene_baseLine_other_data Pvalue: 0.4 Tvalue: -28.324964147557907
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -13.983691745159888
+Attribute: Death or Hospitalization Pvalue: 5.0E-4 Tvalue: 10.546988988230664

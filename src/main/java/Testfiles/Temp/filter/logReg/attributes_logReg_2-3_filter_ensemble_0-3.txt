@@ -1,0 +1,23 @@
+There are a total of 22 attributes with the following filterfilter
+﻿PatientID
+CysC
+IL6
+hsTnT
+Urea
+GDF15
+Firstmanifest_baseLine_other_data
+Hist_MI_baseLine_other_data
+DCM_baseLine_other_data
+PM01_baseLine_other_data
+Cancer01_baseLine_other_data
+CharlsonScore_baseLine_other_data
+An�mie_baseLine_other_data
+Atherosklerose_baseLine_other_data
+NYHA_class_baseLine_other_data
+NYHA_III_baseLine_other_data
+Orthopnea_baseLine_other_data
+Rales_baseLine_other_data
+Rales_01_baseLine_other_data
+Potassium_baseLine_other_data
+BNP_resource_baseLine_other_data
+Death

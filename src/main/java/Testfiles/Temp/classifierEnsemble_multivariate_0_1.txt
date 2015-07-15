@@ -1,0 +1,30 @@
+Achieved AUC: 0.8077170713760118
+
+
+
+Selected Features for ensemble: 0-1
+
+
+
+Classifier 0 1has the following pvalues & tvalues & 599degrees of freedom
+Attribute: Main_CAD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1462.2277323331045
+Attribute: CAD_baseLine_other_data Pvalue: 0.4 Tvalue: -25.00923603212368
+Attribute: Hypertension_baseLine_other_data Pvalue: 0.4 Tvalue: -16.321838244237874
+Attribute: COPD_baseLine_other_data Pvalue: 0.4 Tvalue: -21.642131155490397
+Attribute: COPD01_baseLine_other_data Pvalue: 0.4 Tvalue: -2.663725262743689
+Attribute: PAOD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 60.44353477244647
+Attribute: PAOD01_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 25.2229962998234
+Attribute: AA_baseLine_other_data Pvalue: 0.005 Tvalue: 2.4504471328074287
+Attribute: AAthorax_baseLine_other_data Pvalue: 0.4 Tvalue: -88.20285572682704
+Attribute: Depression_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 3.16550066499803
+Attribute: Kidney_disease_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1734.3364777370737
+Attribute: Comorb_baseLine_other_data Pvalue: 0.4 Tvalue: -68.9921303111718
+Attribute: comorb02_baseLine_other_data Pvalue: 0.4 Tvalue: -16.530831174912148
+Attribute: An�mie_baseLine_other_data Pvalue: 0.4 Tvalue: -1852.1631799897852
+Attribute: Atherosklerose_baseLine_other_data Pvalue: 0.4 Tvalue: -48.171464612253175
+Attribute: Angina_baseLine_other_data Pvalue: 0.4 Tvalue: -38.80241252769006
+Attribute: EdemaHistory_01_baseLine_other_data Pvalue: 0.4 Tvalue: -6.1324721289412665
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -61.208614479762716
+Attribute: EDTAbloodtaken_baseLine_other_data Pvalue: 0.4 Tvalue: -47.34449651641222
+Attribute: BNP_resource_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 135.39851809261228
+Attribute: Death or Hospitalization Pvalue: 5.0E-4 Tvalue: 318.4084112838007

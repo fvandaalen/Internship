@@ -1,0 +1,12 @@
+There are a total of 11 attributes with the following filterrandom
+﻿PatientID
+PREA
+hsTnT
+Hist_MI_baseLine_other_data
+HHD_baseLine_other_data
+Cancer_baseLine_other_data
+Comorb_baseLine_other_data
+comorb02_baseLine_other_data
+Leuk�mien_baseLine_other_data
+Urea_baseLine_other_data
+Death

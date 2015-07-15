@@ -1,0 +1,11 @@
+There are a total of 10 attributes with the following filterrandom
+﻿PatientID
+hsTnT
+HHD_baseLine_other_data
+Cancer_baseLine_other_data
+comorb02_baseLine_other_data
+Leuk�mien_baseLine_other_data
+Hosp_at_BL_baseLine_other_data
+Urea_baseLine_other_data
+dog_BL_baseLine_other_data
+Death

@@ -1,0 +1,30 @@
+Achieved AUC: 0.9067460317460316
+
+
+
+Selected Features for ensemble: 1-2
+
+
+
+Classifier 1 2has the following pvalues & tvalues & 581degrees of freedom
+Attribute: CysC Pvalue: 5.0E-4 Tvalue: 232.42325073062898
+Attribute: IL6 Pvalue: 5.0E-4 Tvalue: 15.486591193478318
+Attribute: PAPPA Pvalue: 0.4 Tvalue: -0.14565199580917682
+Attribute: PREA Pvalue: 0.4 Tvalue: -51.04812850916811
+Attribute: sFlt Pvalue: 5.0E-4 Tvalue: 192.77162260029792
+Attribute: GDF15 Pvalue: 0.4 Tvalue: 0.08265026040792049
+Attribute: sST2 Pvalue: 0.4 Tvalue: -2.1110443637992142E-4
+Attribute: DCM_baseLine_other_data Pvalue: 0.4 Tvalue: -0.04353115767748608
+Attribute: CTD_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 1031.3205189604635
+Attribute: Comorb_baseLine_other_data Pvalue: 0.4 Tvalue: -121.82141282659511
+Attribute: Comorb_wo_hypertension_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 8.534077840573175
+Attribute: Synkope_baseLine_other_data Pvalue: 0.4 Tvalue: -15.513993704817466
+Attribute: Hyperthyreose_baseLine_other_data Pvalue: 0.4 Tvalue: -91.61441339460065
+Attribute: NYHA_baseLine_other_data Pvalue: 5.0E-4 Tvalue: 745.2967703479062
+Attribute: Nocturia_baseLine_other_data Pvalue: 0.4 Tvalue: -5.705289678723953
+Attribute: Rales_baseLine_other_data Pvalue: 0.4 Tvalue: -0.42313938903103354
+Attribute: SystmurmurMR_baseLine_other_data Pvalue: 0.4 Tvalue: -2.738431042590146
+Attribute: Rales_01_baseLine_other_data Pvalue: 0.4 Tvalue: -3.1015146522188433
+Attribute: Hygiene_baseLine_other_data Pvalue: 0.4 Tvalue: -44.591301415622226
+Attribute: BNP_resource_baseLine_other_data Pvalue: 0.4 Tvalue: -11.76703258438479
+Attribute: Death or Hospitalization Pvalue: 5.0E-4 Tvalue: 10.444463959954978

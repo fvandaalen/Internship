@@ -1,0 +1,9 @@
+There are a total of 8 attributes with the following filterrandom
+﻿PatientID
+SHBG
+Prev_Hosp_baseLine_other_data
+Hyperchol_baseLine_other_data
+Recurr_stroke_baseLine_other_data
+CarotisTEA_baseLine_other_data
+BPsyststanding_baseLine_other_data
+Death

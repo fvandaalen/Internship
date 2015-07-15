@@ -1,0 +1,16 @@
+There are a total of 15 attributes with the following filterrandom
+﻿PatientID
+PAPPA
+Preserved_LVEF_baseLine_other_data
+CABG_baseLine_other_data
+Hyperchol_baseLine_other_data
+AAabddim_baseLine_other_data
+CTD_baseLine_other_data
+Augenerkrankungen_baseLine_other_data
+Hepatomegaly_baseLine_other_data
+Rales_01_baseLine_other_data
+ALT_baseLine_other_data
+Living_home_not_alone_baseLine_other_data
+Pet_baseLine_other_data
+Inclusion_CE_baseLine_other_data
+Death

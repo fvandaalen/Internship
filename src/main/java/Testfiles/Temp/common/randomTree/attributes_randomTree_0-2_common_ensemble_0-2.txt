@@ -1,0 +1,16 @@
+There are a total of 15 attributes with the following filtercommon
+﻿PatientID
+GDF15
+Estimatedduration_baseLine_other_data
+DCM_baseLine_other_data
+CTD_baseLine_other_data
+Comorb_baseLine_other_data
+Comorb_wo_hypertension_baseLine_other_data
+NYHA_baseLine_other_data
+Nocturia_baseLine_other_data
+Rales_baseLine_other_data
+SystmurmurMR_baseLine_other_data
+Rales_01_baseLine_other_data
+Hygiene_baseLine_other_data
+BNP_resource_baseLine_other_data
+Death

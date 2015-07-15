@@ -1,0 +1,33 @@
+Achieved AUC: 0.7353534155597723
+
+
+
+Selected Features for ensemble: 1-12
+classifier 1-4
+ï»¿PatientID;
+CysC;
+IL6;
+hsTnT;
+sST2;
+CharlsonScore_baseLine_other_data;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+classifier 2-4
+ï»¿PatientID;
+CysC;
+IL6;
+hsTnT;
+sST2;
+CharlsonScore_baseLine_other_data;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+classifier 3-4
+ï»¿PatientID;
+CysC;
+hsTnT;
+sST2;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+
+
+

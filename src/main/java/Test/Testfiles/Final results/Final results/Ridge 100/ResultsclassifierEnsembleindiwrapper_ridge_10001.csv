@@ -1,0 +1,15 @@
+Achieved AUC: 0.7615894039735099
+
+
+
+Selected Features for ensemble: 0-1
+classifier 0-1
+ï»¿PatientID;
+DOB_baseLine_other_data;
+Comorb_baseLine_other_data;
+Angina_baseLine_other_data;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+
+
+

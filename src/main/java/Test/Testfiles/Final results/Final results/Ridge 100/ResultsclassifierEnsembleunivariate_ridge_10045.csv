@@ -1,0 +1,31 @@
+Achieved AUC: 0.738973544973545
+
+
+
+Selected Features for ensemble: 12-18
+classifier 4-5
+ï»¿PatientID;
+CysC;
+hsTnT;
+Uric_acid;
+Urea;
+GDF15;
+DOB_baseLine_other_data;
+Estimatedduration_baseLine_other_data;
+Causeofheartfailure_baseLine_other_data;
+Main_CAD_baseLine_other_data;
+CAD_baseLine_other_data;
+Ant_MI_baseLine_other_data;
+Hist_MI_baseLine_other_data;
+DCM_baseLine_other_data;
+Smoking_baseLine_other_data;
+Current_smoking_baseLine_other_data;
+CharlsonScore_baseLine_other_data;
+Comorb_wo_hypertension_baseLine_other_data;
+Atherosklerose_baseLine_other_data;
+Urea_baseLine_other_data;
+Socialstatus_baseLine_other_data;
+Death or Hospitalization;
+
+
+

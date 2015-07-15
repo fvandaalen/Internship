@@ -1,0 +1,34 @@
+Achieved AUC: 0.9086681547619048
+
+
+
+Selected Features for ensemble: 0-3
+classifier 0-2
+ï»¿PatientID;
+CysC;
+GDF15;
+sST2;
+DCM_baseLine_other_data;
+CTD_baseLine_other_data;
+Comorb_wo_hypertension_baseLine_other_data;
+Synkope_baseLine_other_data;
+Rales_baseLine_other_data;
+SystmurmurMR_baseLine_other_data;
+Hygiene_baseLine_other_data;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+classifier 1-2
+ï»¿PatientID;
+CysC;
+sST2;
+DCM_baseLine_other_data;
+CTD_baseLine_other_data;
+Comorb_wo_hypertension_baseLine_other_data;
+Synkope_baseLine_other_data;
+SystmurmurMR_baseLine_other_data;
+Hygiene_baseLine_other_data;
+BNP_resource_baseLine_other_data;
+Death or Hospitalization;
+
+
+

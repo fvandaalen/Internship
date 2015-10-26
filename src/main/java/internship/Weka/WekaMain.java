@@ -4,9 +4,12 @@
  */
 package internship.Weka;
 
+import ChiSquare.Chi;
 import LogReg.FilteredLogRegClassifier;
 import LogReg.Logistic;
 import LogReg.TTest;
+import ChiSquare.ChiSquaredAttributeEval;
+
 import internship.Weka.WrapperAndClassifier.BehemothWrapper;
 import internship.Weka.WrapperAndClassifier.EnsembleClassifierWeka;
 import internship.Weka.WrapperAndClassifier.BehemothClassifier;
@@ -32,6 +35,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+import org.rosuda.JRI.Rengine;
 import weka.attributeSelection.AttributeSelection;
 import weka.attributeSelection.BestFirst;
 import weka.attributeSelection.CfsSubsetEval;
@@ -1843,6 +1847,18 @@ public class WekaMain implements Serializable {
                 list.add(TTest(sets.get(i)));
             }
             count = 0;
+            writer.write("P values for each attribute except for the ID attribute");
+            writer.newLine();
+            Chi chi = new Chi();
+            for(Data d: sets){
+                double[] pValues = chi.PValues(d.filtered);
+                writer.write("Ensemble:" + d.start + "-" + d.end);
+                for(int i = 0; i<pValues.length; i++){
+                    writer.write(d.filtered.attribute(i+1).name() + " pvalue: " + pValues[i]);
+                    writer.newLine();
+                }
+            }
+            
 //            writer.write("P values for each attribute except for the ID attribute");
 //            writer.newLine();
 //            ArrayList<Double> pvalueMax = new ArrayList<Double>();
@@ -2076,4 +2092,7 @@ public class WekaMain implements Serializable {
         }
         return pValue;
     }
+    
+    
+
 }

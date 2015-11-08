@@ -1862,17 +1862,12 @@ public class WekaMain implements Serializable {
             Chi chi = new Chi();
             for(Data d: sets){
                 double[] pValues = chi.PValues(d.data);
-<<<<<<< HEAD
+
                 double[] chiValues = chi.ChiValues(d.data);
                 writer.write("Ensemble:" + d.start + "-" + d.end);
                 for(int i = 0; i<pValues.length; i++){
                     writer.write(d.data.attribute(i+1).name() + " pvalue: " + pValues[i] + " chiValue: " + chiValues[i]);
-=======
-                writer.write("Ensemble:" + d.start + "-" + d.end);
-                for(int i = 0; i<pValues.length; i++){
-                    writer.write(d.data.attribute(i+1).name() + " pvalue: " + pValues[i]);
->>>>>>> origin/master
-                    writer.newLine();
+
                 }
             }
             

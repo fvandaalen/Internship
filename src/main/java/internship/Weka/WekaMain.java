@@ -1444,7 +1444,7 @@ public class WekaMain implements Serializable {
         ridgeFactor = 100;
 
 
-        filterRecombination = filterRecombination.none;
+        filterRecombination = filterRecombination.filter;
         baseFilter = FilterType.univariate;
         buildClassifier();
         for (int i = 0; i < 5; i++) {
@@ -1454,25 +1454,35 @@ public class WekaMain implements Serializable {
 
             }
         }
-//        baseFilter = FilterType.multivariate;
-//
-//        buildClassifier();
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = i + 1; j < 6; j++) {
-//                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-//                printResult(i, j, relevantSets(i, j), "multivariate_ridge_0_01");
-//
-//            }
-//        }
-//        baseFilter = FilterType.indiWrapper;
-//        buildClassifier();
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = i + 1; j < 6; j++) {
-//                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
-//                printResult(i, j, relevantSets(i,j), "indiwrapper_ridge_0_01");
-//
-//            }
-//        }
+        baseFilter = FilterType.univariate;
+
+        buildClassifier();
+        for (int i = 0; i < 5; i++) {
+            for (int j = i + 1; j < 6; j++) {
+                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
+                printResult(i, j, relevantSets(i, j), "univariate_ridge_0_01");
+
+            }
+        }
+        baseFilter = FilterType.multivariate;
+
+        buildClassifier();
+        for (int i = 0; i < 5; i++) {
+            for (int j = i + 1; j < 6; j++) {
+                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
+                printResult(i, j, relevantSets(i, j), "multivariate_ridge_0_01");
+
+            }
+        }
+        baseFilter = FilterType.indiWrapper;
+        buildClassifier();
+        for (int i = 0; i < 5; i++) {
+            for (int j = i + 1; j < 6; j++) {
+                System.out.println(testEnsemble(i, j, 5, 5, true).calcAUC());
+                printResult(i, j, relevantSets(i,j), "indiwrapper_ridge_0_01");
+
+            }
+        }
 //        baseFilter = FilterType.ensembleWrap;
 //        buildClassifier();
 
@@ -1852,10 +1862,16 @@ public class WekaMain implements Serializable {
             Chi chi = new Chi();
             for(Data d: sets){
                 double[] pValues = chi.PValues(d.data);
+<<<<<<< HEAD
                 double[] chiValues = chi.ChiValues(d.data);
                 writer.write("Ensemble:" + d.start + "-" + d.end);
                 for(int i = 0; i<pValues.length; i++){
                     writer.write(d.data.attribute(i+1).name() + " pvalue: " + pValues[i] + " chiValue: " + chiValues[i]);
+=======
+                writer.write("Ensemble:" + d.start + "-" + d.end);
+                for(int i = 0; i<pValues.length; i++){
+                    writer.write(d.data.attribute(i+1).name() + " pvalue: " + pValues[i]);
+>>>>>>> origin/master
                     writer.newLine();
                 }
             }

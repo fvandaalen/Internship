@@ -66,7 +66,7 @@ public class Chi {
 
     }
 
-    private double[] ChiValues(Instances data) throws Exception {
+    public double[] ChiValues(Instances data) throws Exception {
         double[] list = new double[data.numAttributes() - 1];
         ChiSquaredAttributeEval chi = new ChiSquaredAttributeEval();
         chi.buildEvaluator(data);

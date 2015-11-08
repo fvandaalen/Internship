@@ -1866,7 +1866,7 @@ public class WekaMain implements Serializable {
                 double[] chiValues = chi.ChiValues(d.data);
                 writer.write("Ensemble:" + d.start + "-" + d.end);
                 for(int i = 0; i<pValues.length; i++){
-                    writer.write(d.data.attribute(i+1).name() + " pvalue: " + pValues[i] + " chiValue: " + chiValues[i]);
+                    writer.write(d.data.attribute(i+1).name() + " pvalue: " + pValues[i] + " chiValue: " + chiValues[i] + " degrees of freedom: " + (d.data.numAttributes()-2));
 
                 }
             }
